@@ -1,11 +1,7 @@
 import main from './main';
-import { expect } from 'chai';
-// if you used the '@types/mocha' method to install mocha type definitions, uncomment the following line
-// import 'mocha';
+// this is our simple test in jest';
 
-describe('Mainfunction', () => {
-    it('should return hello world', () => {
-        const result = main();
-        expect(result).to.equal('Happy Application Testing');
-    });
+test('Should return a string Happy Application Testing', () => {
+    const result = main();
+    expect(result).toBe('Happy Application Testing');
 });
