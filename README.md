@@ -2,7 +2,7 @@
 
 [![Dependabot badge](https://flat.badgen.net/dependabot/wbkd/webpack-starter?icon=dependabot)](https://dependabot.com/)
 
-A lightweight foundation for your next webpack based frontend project.
+A complete stater kit for starting webpack based frontend project.Which includes testing and linting.
 
 ### Installation
 
@@ -30,5 +30,6 @@ npm run build
 - Autoprefixing of browserspecific CSS rules via [postcss](https://postcss.org/) and [postcss-preset-env](https://github.com/csstools/postcss-preset-env)
 - Style Linting via [stylelint](https://stylelint.io/)
 - Testing using [mocha](https://mochajs.org/)
+- Assertion using [Chai](https://www.chaijs.com/)
 
 When you run `npm run build` we use the [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin) to move the css to a separate file. The css file gets included in the head of the `index.html`.
